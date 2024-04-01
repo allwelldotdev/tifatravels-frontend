@@ -1,0 +1,280 @@
+/*
+ Theme Name:   Divi Child Theme
+ Description:  This is a sample child theme
+ Author:       Allwell Agwu-Okoro
+ Author URI:   https://allwelltechtalk.com
+ Template:     Divi
+ Version:      1.45
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  divi-child-theme
+*/
+
+
+
+/* Add CSS below this line */
+
+
+/* -------------------------Font Family CSS below this line------------------------- */
+
+/* || Lato */
+
+/* lato-300 - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-300italic - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-regular - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-italic - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700italic - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-900italic - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 900;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/lato-v23-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+  /* || News Cycle */
+
+  /* news-cycle-regular - latin */
+@font-face {
+    font-family: 'News Cycle';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/news-cycle-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/news-cycle-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* news-cycle-700 - latin */
+  @font-face {
+    font-family: 'News Cycle';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/news-cycle-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tours.tifatravels.com/wp-content/themes/divi-child-theme/webfonts/news-cycle-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+  h1, h2, h3, h4, h5 {
+    font-family: "News Cycle", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif !important;
+  }
+  
+  
+  .font-family_news-cycle, .font-family_news-cycle h1, .font-family_news-cycle h2, .font-family_news-cycle h3, .font-family_news-cycle h4, .font-family_news-cycle h5, .font-family_news-cycle div, .font-family_news-cycle span, .font-family_news-cycle p {
+    font-family: "News Cycle", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
+  }
+
+ body, p, .font-family_lato p, .font-family_lato, .font-family_lato div, .font-family_lato span {
+    font-family: "Lato", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
+  }
+
+  
+
+/* -------------------------Other CSS below this line------------------------- */
+
+
+
+/*make top right 'contact us and socials' module block inline*/
+.socials_top_left_stack {
+    display: inline-flex;
+}
+/*add space in-betweeen menu items*/
+.nav li.menu-item {
+  padding: 0 29px !important;
+}
+/*turn off hover opacity on Tifa logo - but it doesn't seem to work*/
+.et-menu a:hover {
+    opacity: 1 !important;
+}
+/** customize back-to-top button **/
+.et_pb_scroll_top.et-pb-icon {
+    background: rgb(163 35 142 / 55%) !important;
+    right: 15px !important;
+    border-radius: 5px !important;
+    transition: all .3s ease 0s;
+}
+/** customising back-to-top buton on hover **/
+.et_pb_scroll_top.et-pb-icon:hover {
+    color: #fff;
+    background-color: #a3238e !important;
+    transform: translateY(-7px);
+}
+/** remove animation from email icon in mobile top header **/
+.et_pb_blurb.et_pb_blurb_0_tb_header .et_pb_main_blurb_image > span > span {
+    animation: none !important;
+}
+/** margin-top distance for mobile menu from the dropdown menu icon **/
+.et_pb_menu ul.et_mobile_menu {
+        margin-top: 12px;
+        /** customizing border top colour in dropdown menu **/
+        border-top-color: #a3238e!important;
+    }
+/** customizing border bottom colour in dropdown menu lists **/
+.et_pb_menu .et_mobile_menu li a {
+        border-bottom-color: #fcebff;
+    }
+/** specific edits for tablet-view **/
+@media (max-width: 980px) {
+    /** increase the menu logo size **/
+    .al_mobile_menu .et_pb_menu__logo-wrap {
+        width: 30% !important;
+    }
+    /** remove horizontal margin on dropdown menu nav **/
+    .al_mobile_menu .et_pb_menu__wrap .et_mobile_nav_menu {
+        margin: 0 -2px 0 0 !important;
+    }
+}
+/** specific edits for phone (Surface Duo)-view **/
+@media only screen and (max-width: 767px) {
+    /** customizing the flex height of row **/
+    .et_pb_section.al_flex_row_1_height_media-max-width-767 .et_pb_row_1 {
+        height: 450px;
+    }
+}
+/** specific edits for phone-view **/
+@media (max-width: 412px) {
+    /** increase the menu logo size **/
+    .al_mobile_menu .et_pb_menu__logo-wrap {
+        width: 60% !important;
+    }
+    /** remove the margin-right demacating the social media follow icons in top header **/
+    .socials_top_left_stack.et_pb_social_media_follow li a {
+        margin-right: -3px !important;
+    }
+    /** remove horizontal margin on dropdown menu nav **/
+    .al_mobile_menu .et_pb_menu__wrap .et_mobile_nav_menu {
+        margin: -3px -3px 0 0 !important;
+    }
+    /** customizing the flex height of row **/
+    .et_pb_section.al_flex_row_1_height_media-max-width-767 .et_pb_row_1 {
+        height: 700px;
+    }
+}
+/** specific edits for views with minimum width - 1600px **/
+@media only screen and (min-width: 1600px) {
+    /** reducing row & section padding of /privacy-policy , /cookie-policy & /terms pages on desktop view **/
+    .al_reduce_section_padding_01.et_pb_section {
+        padding: 70px 0 0;
+    }
+    .al_reduce_section_padding_01 .al_reduce_row_padding .et_pb_section {
+        padding: 50px 0 50px;
+    }
+}
+/* specific edits to phones with < 361px width screens */
+@media only screen and (max-width: 361px) {
+    /* remove the padding in homepage silder container */
+    #slider-padding .et_pb_slide_description, #slider-padding .et_pb_slider_fullwidth_off .et_pb_slide_description {
+        padding-inline: 5%;
+    }
+    /* adding 8% padding-inline to homepage slider content */
+    #slider-padding .et_pb_slide_content {
+        padding-inline: 3%;
+    }
+}
+/* specific media query to mobile devices >270px & <347px width */
+@media only screen and (min-width: 270px) and (max-width: 347px) {
+    /* customizing margin-right for mail icon on top nav */
+    header div.et_pb_blurb_0_tb_header.et_pb_blurb {
+        margin-right: -12px !important;
+    }
+}
+
+/* editing whatsapp button padding */
+.al_button_01.et_pb_blurb.et_pb_text_align_left .et_pb_blurb_content .et_pb_blurb_container {
+    text-align: center;
+}
+
+/* editing enquiry form in travel packages pages (Fluent Forms) */
+.ff_submit_btn_wrapper:has(.al_fluent-form_btn) {
+    margin-bottom: 0px !important;
+}
+.ff_submit_btn_wrapper button.ff-btn.ff-btn-submit.al_fluent-form_btn {
+    display: block;
+    width: 100%;
+    background-color: #466ace !important;
+    border-radius: 4px 4px 4px 4px;
+    border: none !important;
+    color: #fff !important;
+    font-size: 18px!important;
+    line-height: 1em;
+    padding: 18px 0 !important;
+}
+.ff_submit_btn_wrapper button.ff-btn.ff-btn-submit.al_fluent-form_btn:hover {
+    background-color: #2552ce !important;
+    opacity: 1 !important;
+}
+div.fluentform .ff-el-input--label label {
+    color: #000;
+}
+div.fluentform .ff-el-form-control {
+    border: 1px solid #000;
+    font-size: 18px;
+    color: #000;
+}
+div.fluentform .ff-el-form-control:focus {
+    color: #000;
+}
+div.fluentform .ff-el-form-check label.ff-el-form-check-label {
+    color: #000;
+    font-size: 16px;
+}

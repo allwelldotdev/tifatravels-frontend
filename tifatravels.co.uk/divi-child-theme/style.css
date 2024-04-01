@@ -1,0 +1,587 @@
+/*
+ Theme Name:   Divi Child Theme
+ Description:  This is a sample child theme
+ Author:       Allwell.DEV
+ Author URI:   https://allwell.dev
+ Template:     Divi
+ Version:      1.53
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  divi-child-theme
+*/
+
+
+/* CSS FONTS below this line */
+
+/* || Plus Jakarta Sans */
+
+/* plus-jakarta-sans-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-200.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-200italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 200;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-200italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-200italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-300.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-300italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-300italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-300italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-500italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-500italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-600italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-600italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-700italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-800.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-800italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-800italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/plus-jakarta-sans-v3-latin-800italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* || Inter */
+
+/* inter-200 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-300 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-regular - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-800 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://tifatravels.co.uk/wp-content/themes/divi-child-theme/webfonts/inter-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #0E131F;
+    padding-bottom: 0px;
+    line-height: normal;
+    font-weight: 400;
+  }
+  
+  
+  .font-family_head, .font-family_head h1, .font-family_head h2, .font-family_head h3, .font-family_head h4, .font-family_head h5, .font-family_head div, .font-family_head span, .font-family_head p {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
+  }
+
+ body, p, .font-family_body p, .font-family_body, .font-family_body div, .font-family_body span {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    color:#0E131F;
+    font-weight: 400;
+  }
+
+/* ------------------------- New CSS below this line ------------------------- */
+
+/* start - reboot menu style in Divi header */
+.et_pb_menu--without-logo.al_nav-menu .et_pb_menu__menu>nav>ul>li {
+  margin-top: 0;
+}
+.et_pb_menu--without-logo.al_nav-menu .et_pb_menu__menu>nav>ul>li>a {
+  padding-bottom: 0;
+  padding: 12px 15px; /* optional */
+  border-radius: .25rem; /* optional */
+  background-color: rgb(255, 255, 255, .1); /* optional */
+}
+.et_pb_menu--without-logo.al_nav-menu .et_pb_menu__menu>nav>ul>li>a:hover {
+  /* optional */
+  background-color: #fff;
+  color: #A3238E !important;
+}
+.al_nav-menu .et-menu a, .al_nav-menu .et-menu a:hover {
+  /* optional */
+  transition: all .25s ease;
+  -webkit-transition: all .25s ease;
+}
+.al_nav-menu .et-menu a:hover {
+  opacity: 1;
+}
+.et_pb_menu.al_nav-menu .et-menu>li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* css reboot header for archive pages on divi */
+.et-db #et-boc .et-l .al_nav-menu.et_pb_menu--without-logo .et_pb_menu__menu>nav>ul>li>a, .et-db #et-boc .et-l .al_nav-menu .et-menu li>a {
+  margin-top: 0;
+  padding-bottom: 12px;
+}
+.et-db #et-boc .et-l .al_nav-menu.et_pb_menu--without-logo .et_pb_menu__menu>nav>ul>li {
+  margin-top: 0;
+}
+.et-db #et-boc .et-l .al_nav-menu.et_pb_menu .et-menu a:hover {
+  opacity: 1;
+}
+/* style header for archive pages on divi */
+.et-db #et-boc .et-l .al_nav-menu.et_pb_menu .et-menu>li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.et-db #et-boc .et-l .al_nav-menu.et_pb_menu_0_tb_header.et_pb_menu ul li a {
+  color: #fff !important;
+  transition: all .25s ease;
+  -webkit-transition: all .25s ease;
+}
+.et-db #et-boc .et-l .al_nav-menu.et_pb_menu_0_tb_header.et_pb_menu ul li a:hover {
+  color: #A3238E !important;
+}
+/* end - reboot menu style in Divi header */
+
+/* footer-copyright style */
+.footer-copyright {
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #fff;
+}
+.footer-copyright a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+.footer-copyright a:hover {
+  text-decoration: underline dotted;
+}
+@media screen and (max-width: 576px) {
+  .footer-copyright {
+    line-height: 1.5;
+  }
+}
+
+/* homepage hero text styling */
+.hero-text-highlight {
+  padding: 0 .625rem;
+  background-color: rgb(255, 255, 255, .1);
+  border-radius: .25rem;
+}
+
+/* homepage hero icon (icon-text) styling */
+.al_inline-block {
+  display: inline-block;
+}
+.al_fa-icon {
+  color: #0E131F;
+  font-size: 2.2rem;
+}
+.al_fa-img {
+  width: 2.5rem;
+}
+.al_hero-icon-flex {
+  display: flex;
+}
+.al_hero-icon-text h3, .al_hero-icon-text p {
+  margin: 0;
+}
+.al_hero-icon-text h3 {
+  margin-bottom: .5rem;
+  color: #0E131F;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.al_hero-icon-text p {
+  color: #696E7C;
+}
+.al_hero-icon-text {
+  margin-left: 1.5rem;
+}
+.al_hero-icon-wrapper {
+  width: 45px;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .al_fa-icon {
+    font-size: 2rem;
+  }
+  .al_fa-img {
+    width: 2.2rem;
+  }
+  .al_hero-icon-text {
+    margin-left: 1rem;
+  }
+}
+/* styling second set of icons on homepage */
+.al_icon-img img {
+  width: 32px;
+}
+.al_icon-img {
+  line-height: 1;
+}
+.al_hero-icon-1 {
+  width: 56px;
+  height: 56px;
+  background-color: #F7F5F1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.al_hero-icon-flex-1 {
+  display: flex;
+  align-items: center;
+}
+.al_hero-icon-text-1 h3 {
+  margin: 0;
+  color: #0E131F;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.al_hero-icon-text-1 {
+  margin-left: 1.5rem;
+}
+.al_img-1 {
+  margin-top: 8px;
+}
+
+/* editing enquiry form in holidays pages (Fluent Forms) */
+.ff_submit_btn_wrapper:has(.al_fluent-form_btn) {
+  margin-bottom: 0px !important;
+}
+.ff_submit_btn_wrapper button.ff-btn.ff-btn-submit.al_fluent-form_btn {
+  display: block;
+  width: 100%;
+  background-color: #466ace !important;
+  border-radius: .25rem;
+  border: none !important;
+  color: #fff !important;
+  font-size: 1.125rem !important;
+  line-height: 1em;
+  padding: 18px 0 !important;
+}
+.ff_submit_btn_wrapper button.ff-btn.ff-btn-submit.al_fluent-form_btn:hover {
+  background-color: #2552ce !important;
+  opacity: 1 !important;
+}
+/* styling whatsapp btn underneath enquiry form in holidays pages */
+.al_button_01.et_pb_blurb .et_pb_blurb_description {
+  line-height: 1em;
+}
+/* editing fares enquiry form in homepage (Fluent Forms) */
+.ff_submit_btn_wrapper.al_fluent-form_btn_1 {
+  margin-bottom: 0px !important;
+  text-align: center;
+}
+.al_fluent-form_btn_1 .ff-btn.ff-btn-submit {
+  display: block;
+  width: 100%;
+  background-color: #5EC031 !important;
+  border-radius: .25rem;
+  border: none !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+  font-weight: 700;
+  line-height: 1.25em;
+  padding: 12px 0 !important;
+}
+.al_fluent-form_btn_1 .ff-btn.ff-btn-submit:hover {
+  background-color: #0E131F !important;
+  opacity: 1 !important;
+}
+.al_homepage_form .fluentform .ff-el-form-control {
+  padding: 12px !important;
+  color: #0E131F !important;
+  border: 2px solid #fff !important;
+  transition: all .25s ease;
+  -webkit-transition: all .25s ease;
+}
+.al_homepage_form .fluentform .ff-el-form-control:focus {
+  border-color: #0E131F !important;
+}
+.al_fluent-form_email_1 .ff-el-form-control, .al_fluent-form_name_1 .ff-el-form-control {
+  font-size: .875rem !important;
+}
+
+/* styling for homepage email optin */
+.al_email-optin.et_pb_newsletter {
+  padding: 0;
+}
+/* email optin image */
+.al_img-container {
+  display: flex;
+  min-height: 620px;
+}
+.al_img-col-1 {
+  align-self: start;
+}
+.al_img-col-2 {
+  align-self: end;
+}
+.al_img-wrapper {
+  padding: 20px;
+  background-color: transparent;
+}
+.al_img-wrapper img {
+  border-radius: .625rem;
+  max-width: 225px;
+  max-height: 225px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 576px) {
+  .al_img-container {
+    min-height: 420px;
+    margin-top: 35px;
+  }
+  .al_img-wrapper {
+    padding: 10px;
+  }
+}
+
+/* rebooting hamburger menu on mobile */
+.al_nav-menu .et_mobile_nav_menu .mobile_menu_bar:before {
+  top: 0;
+}
+.et-db #et-boc .et-l .al_nav-menu.et_pb_module .mobile_menu_bar:before {
+  top: 0;
+}
+.al_nav-menu .et_mobile_nav_menu {
+  margin: 0 0 0 6px;
+}
+.al_nav-menu .et_pb_menu_inner_container {
+  position: static;
+}
+.et-db #et-boc .et-l .al_nav-menu .et_pb_menu_inner_container {
+  position: static;
+}
+/* styling hamburger menu on mobile */
+.al_nav-menu .et_mobile_menu {
+  border-top: 0;
+}
+.et-db #et-boc .et-l .al_nav-menu .et_mobile_menu {
+  border-top: 0;
+}
+div.al_nav-menu.et_pb_menu ul.et_mobile_menu {
+  background-color: #A3238E !important;
+}
+.et-db #et-boc .et-l .al_nav-menu.et_pb_menu_0_tb_header.et_pb_menu .et_mobile_menu {
+  background-color: #A3238E !important;
+}
+@media (max-width: 980px) {
+  .al_nav-menu.et_pb_menu .et_mobile_menu {
+    top: 99%;
+  }
+  .et-db #et-boc .et-l .al_nav-menu.et_pb_menu .et_mobile_menu {
+    top: 99%;
+  }
+  .et-db #et-boc .et-l .al_nav-menu.et_pb_menu .et_mobile_nav_menu {
+    margin: 0 0 0 6px;
+  }
+}
+.al_nav-menu .et_mobile_menu li a {
+  border-bottom: 0px;
+}
+.et-db #et-boc .et-l .al_nav-menu .et_mobile_menu li a {
+  border-bottom: 0px;
+}
+
+/* widening width of blog row on mobile */
+@media only screen and (max-width: 767px) {
+  .al_blog-row .et_pb_row {
+    width: 90%;
+  }
+  .al_blog-row-1 .et_pb_row {
+    width: 90%;
+  }
+  .al_blog-row .et_pb_row div.et_pb_row_inner {
+    width: 100%;
+  }
+}
+
+/* styling blog post in /terms and /privacy pages */
+.al_blog-post.et_pb_module.et_pb_post_content {
+  padding: 45px 45px 50px 45px;
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .05);
+}
+@media screen and (max-width: 576px) {
+  .al_blog-post.et_pb_module.et_pb_post_content {
+    padding: 25px 20px 30px 20px;
+  }
+}
+.et-l--body .al_blog-post ul {
+  padding: 0 0 0 1em;
+}
+
+/* styling parternship and membership logo section of homepage */
+.al_img-container-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 40px;
+}
+.al_img-wrapper-1 img {
+  height: 50px;
+}
+
